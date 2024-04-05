@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Colores */
+:root {
+    --primary-color: #6f42c1; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+section {
+    max-width: 500px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: var(--primary-color); 
+}
+
+/* Estilos para botones */
+button,
+input[type="submit"],
+a.button {
+    display: flex;
+    padding: 10px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-color); 
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type="submit"]:hover,
+a.button:hover {
+    background-color: #5a2d91; 
+}
+
+/* //Estilos para formularios  */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+p a {
+    color: var(--primary-color); 
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
